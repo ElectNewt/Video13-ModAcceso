@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\projects\\ivanabad\\Canal\\programacion-basica\\Video13-ModAcceso\\ModAcceso\\ModAcceso\\ModAcceso.csproj": {}
+  },
+  "projects": {
+    "C:\\projects\\ivanabad\\Canal\\programacion-basica\\Video13-ModAcceso\\ModAcceso\\ModAcceso.DTO\\ModAcceso.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\projects\\ivanabad\\Canal\\programacion-basica\\Video13-ModAcceso\\ModAcceso\\ModAcceso.DTO\\ModAcceso.DTO.csproj",
+        "projectName": "ModAcceso.DTO",
+        "projectPath": "C:\\projects\\ivanabad\\Canal\\programacion-basica\\Video13-ModAcceso\\ModAcceso\\ModAcceso.DTO\\ModAcceso.DTO.csproj",
+        "packagesPath": "C:\\Users\\ivana\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\ivanabad\\Canal\\programacion-basica\\Video13-ModAcceso\\ModAcceso\\ModAcceso.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ivana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\projects\\ivanabad\\Canal\\programacion-basica\\Video13-ModAcceso\\ModAcceso\\ModAcceso\\ModAcceso.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\projects\\ivanabad\\Canal\\programacion-basica\\Video13-ModAcceso\\ModAcceso\\ModAcceso\\ModAcceso.csproj",
+        "projectName": "ModAcceso",
+        "projectPath": "C:\\projects\\ivanabad\\Canal\\programacion-basica\\Video13-ModAcceso\\ModAcceso\\ModAcceso\\ModAcceso.csproj",
+        "packagesPath": "C:\\Users\\ivana\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\ivanabad\\Canal\\programacion-basica\\Video13-ModAcceso\\ModAcceso\\ModAcceso\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ivana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\projects\\ivanabad\\Canal\\programacion-basica\\Video13-ModAcceso\\ModAcceso\\ModAcceso.DTO\\ModAcceso.DTO.csproj": {
+                "projectPath": "C:\\projects\\ivanabad\\Canal\\programacion-basica\\Video13-ModAcceso\\ModAcceso\\ModAcceso.DTO\\ModAcceso.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

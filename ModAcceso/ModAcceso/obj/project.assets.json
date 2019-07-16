@@ -1,0 +1,81 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "ModAcceso.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/ModAcceso.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ModAcceso.DTO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ModAcceso.DTO/1.0.0": {
+      "type": "project",
+      "path": "../ModAcceso.DTO/ModAcceso.DTO.csproj",
+      "msbuildProject": "../ModAcceso.DTO/ModAcceso.DTO.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "ModAcceso.DTO >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ivana\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\projects\\ivanabad\\Canal\\programacion-basica\\Video13-ModAcceso\\ModAcceso\\ModAcceso\\ModAcceso.csproj",
+      "projectName": "ModAcceso",
+      "projectPath": "C:\\projects\\ivanabad\\Canal\\programacion-basica\\Video13-ModAcceso\\ModAcceso\\ModAcceso\\ModAcceso.csproj",
+      "packagesPath": "C:\\Users\\ivana\\.nuget\\packages\\",
+      "outputPath": "C:\\projects\\ivanabad\\Canal\\programacion-basica\\Video13-ModAcceso\\ModAcceso\\ModAcceso\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ivana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "C:\\projects\\ivanabad\\Canal\\programacion-basica\\Video13-ModAcceso\\ModAcceso\\ModAcceso.DTO\\ModAcceso.DTO.csproj": {
+              "projectPath": "C:\\projects\\ivanabad\\Canal\\programacion-basica\\Video13-ModAcceso\\ModAcceso\\ModAcceso.DTO\\ModAcceso.DTO.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}
